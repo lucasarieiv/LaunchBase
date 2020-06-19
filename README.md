@@ -7,7 +7,13 @@
 
 
 ### 🚀 Desafio Modulo 1
+
 1-1 - Desafios para fixar a ideia de:
 - __Variáveis__;
 - __Condicionais__;
 - __Operadores__.
+
+
+1-2 - Desafios para fortalecer alguns conteitos, entre eles:
+- __Objetos__;
+- __Vetores__.
