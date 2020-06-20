@@ -22,3 +22,9 @@
 - __Funções e métodos__;
 - __Estruturas de repetição__;
 - __Escopos__.
+
+1-4 - Desafio para fortalecer alguns conceitos, entre eles:
+- __Booleanos__;
+- __Organização__;
+- __Padronização__;
+- __Escrita__.
