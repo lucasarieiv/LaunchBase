@@ -28,3 +28,7 @@
 - __Organização__;
 - __Padronização__;
 - __Escrita__.
+
+2-1 - Desafio - Criação de um Header, conceitos usados:
+- __HTML__;
+- __CSS (Cores, espaçamento, Tags)__.
