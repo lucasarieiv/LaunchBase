@@ -47,3 +47,10 @@
 [Visualizar desafios](https://github.com/lucasarieiv/LaunchBase/tree/master/Desafio-2-1)
 - __HTML__;
 - __CSS (Cores, espaçamento, Tags)__.
+
+2-2 - Desafio - Criação página e informações, conceitos usados:
+<br>
+
+[Visualizar desafios](https://github.com/lucasarieiv/LaunchBase/tree/master/Desafio-2-2)
+- __HTML__;
+- __CSS (Cores, espaçamento, Tags, Seletores)__.
