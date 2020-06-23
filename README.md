@@ -58,7 +58,7 @@
 2-3 - Desafio - Criação página, pagina de informação, modal e grids. Conceitos usados:
 <br>
 
-[Visualizar desafios](https://github.com/lucasarieiv/LaunchBase/tree/master/Desafio-2-2)
+[Visualizar desafios](https://github.com/lucasarieiv/LaunchBase/tree/master/Desafio-2-3)
 - __HTML__;
 - __CSS (Cores, espaçamento, Tags, Seletores)__;
 - __Javascript (const, let, function)__.
