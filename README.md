@@ -62,3 +62,16 @@
 - __HTML__;
 - __CSS (Cores, espaçamento, Tags, Seletores)__;
 - __Javascript (const, let, function)__.
+
+
+### 🍲 Construindo o Foodfy
+<div align="center">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/mockup.png" />
+</div>
+
+[Visualizar Foodfy](https://github.com/lucasarieiv/LaunchBase/tree/master/Foodfy)
+
+Paginas Criadas:
+1. __Página principal__ - Contém informações e um banner.
+2. __Página de Receitas__ - Mostra todas as receitas.
+3. __Página Sobre__ - Fala um pouco sobre o Foodfy (Texto ilustrativo).
