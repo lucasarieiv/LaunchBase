@@ -8,5 +8,5 @@
 
 ### 🚀 Fases:
 - Fase 01 - Preparação Estudos.
-- [Fase 02](https://github.com/lucasarieiv/LaunchBase/tree/master/Fase-02) - Introdução a programação Web / Iniciando back-end.
+- [Fase 02/ Fase 03](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases-Cursos/Fase-03) - Introdução a programação Web / Iniciando back-end.
 
