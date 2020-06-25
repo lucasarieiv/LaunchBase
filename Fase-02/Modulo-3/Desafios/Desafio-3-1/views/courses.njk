@@ -1,0 +1,63 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+  <title>Conteúdos</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  <section class="content">
+
+    <div class="cards">
+      <div class="card" id="starter">
+        <h4 class="number">01</h4>
+        <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Logo Starter">
+        <h2 class="title">Starter</h2>
+        <p class="description">
+          <strong>Torne-se um programador desejado</strong>
+          no mercado com esses cursos gratuitos</p>
+        <div class="info">
+          <h3>Módulos 5</h3>
+          <p>Free</p>
+        </div>
+      </div>
+
+      <div class="card" id="launchbase">
+        <h4 class="number">02</h4>
+        <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="Logo LaunchBase">
+        <h2 class="title">LaunchBase</h2>
+        <p class="description">
+          <strong>Domine programação do zero</strong>
+          e tenha acesso às melhores oportunidades do mercado</p>
+        <div class="info">
+          <h3>Módulos 10</h3>
+          <p>Pago</p>
+        </div>
+      </div>
+
+      <div class="card" id="gostack">
+        <h4 class="number">03</h4>
+        <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="Logo GoStack">
+        <h2 class="title">GoStack</h2>
+        <p class="description">
+          <strong>Treinamento imersivo</strong>
+          nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+        <div class="info">
+          <h3>Módulos 7</h3>
+          <p>Pago</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modalOverlay">
+    <div class="modal">
+      <i class="material-icons close">close</i>
+      <i class="material-icons fullscreen min -active">fullscreen</i>
+      <i class="material-icons fullscreen max">fullscreen_exit</i>
+      <iframe src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+{% endblock %}
