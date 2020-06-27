@@ -228,7 +228,7 @@ div.modalOverlay .modal {
 }
 
 div.modalOverlay .modal.-max {
-  width: 95%;
+  width: 100%;
   height: 95%;
 }
 
@@ -244,14 +244,17 @@ div.modal i.close {
   right: 0;
 }
 
-div.modal i.-active {
-  display: inline;
-}
-
 div.modal i.fullscreen {
+  display: inline;
+  visibility: hidden;
   position: absolute;
   right: 0;
   transform: translate(-150%);
+}
+
+div.modal i.fullscreen.-active {
+  visibility: visible;
+  opacity: 1;
 }
 
 div.modal iframe {

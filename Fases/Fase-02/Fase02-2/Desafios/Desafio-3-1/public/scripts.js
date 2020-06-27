@@ -4,8 +4,7 @@ const modal = modalOverlay.querySelector('.modal')
 const cards = document.querySelectorAll('.card');
 
 const btnClose = document.querySelector('.close');
-const btnMax = document.querySelector('.fullscreen.max')
-const btnMin = document.querySelector('.fullscreen.min')
+const btnsFullScreen = modalOverlay.querySelectorAll('.fullscreen')
 
 for (let card of cards) {
   card.addEventListener("click", (cardSelect)=> {
@@ -15,23 +14,17 @@ for (let card of cards) {
   })
 }
 
-btnMin.addEventListener("click", ()=> {
-  btnMax.classList.add('-active')
-  btnMin.classList.remove('-active')
-  modal.classList.add('-max')
-})
-
-btnMax.addEventListener("click", ()=> {
-  btnMax.classList.remove('-active')
-  btnMin.classList.add('-active')
-  modal.classList.remove('-max')
-})
-
+for (let button of btnsFullScreen) {
+  button.addEventListener("click", ()=> {
+    btnsFullScreen.forEach(btn => {
+      btn.classList.toggle('-active')
+    })
+    modal.classList.toggle('-max')
+  })
+}
 
 btnClose.addEventListener("click", ()=> {
   modalOverlay.classList.remove('-active')
   modal.classList.remove('-max')
-  btnMax.classList.remove('-active')
-  btnMin.classList.add('-active')
   iframe.src = ""
 })
