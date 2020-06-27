@@ -3,13 +3,15 @@ module.exports = [
     id: "rCeGfFk-uCk",
     title: "Setup para apps Node.js (TypeScript, ESLint, Jest, Babel) | Code/Drops #33",
     duration: "45 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "hN0zWNuZJC4",
     title: "Deno, Dashboard, Frustração na Carreira, Eject do Expo, Monorepo | #PR 08",
     duration: "11 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "GTMEuHxh8aQ",
@@ -21,7 +23,8 @@ module.exports = [
     id: "Vw9BG9fauIE",
     title: "Deno, o que vai acontecer? | Code/Drops #31",
     duration: "15 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "kncECS5CRRU-uCk",

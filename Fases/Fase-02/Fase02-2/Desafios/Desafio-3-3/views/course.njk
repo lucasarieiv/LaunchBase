@@ -1,0 +1,23 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+  <title>Curso -
+    {{course.name}}</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  <section class="course">
+
+    <div class="container">
+      <img class="image" src="{{course.image}}" alt="">
+      <p class="description">{{ course.description }}</p>
+      <div class="course-info">
+        <p class="modules">Quantidades de Módulos {{ course.modules }}</p>
+        <p class="payment">Forma de Pagamento {{ course.payment }}</p>
+      </div>
+    </div>
+
+</section>
+
+{% endblock %}

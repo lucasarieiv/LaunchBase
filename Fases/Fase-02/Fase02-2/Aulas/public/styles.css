@@ -2,6 +2,8 @@
 :root {
   --color-green: #50fa7b;
   --color-rocket: #7159c1;
+  --color-featured: #f7d05f;
+  --color-zero: #111;
 }
 
 * {
@@ -153,4 +155,37 @@ iframe {
   height: 90%;
   position: absolute;
   bottom: 0;
+}
+
+/* ==== FEATURED ==== */
+.featured-wrapper.card__image-container {
+  position: relative;
+}
+.featured {
+  background-color: var(--color-featured);
+  color: var(--color-zero);
+  padding: 2px 8px;
+  position: absolute;
+  right: 5px;
+  border-radius: 16px;
+  top: -10px;
+}
+
+/* ==== VIDEO PAGE ==== */
+
+.video {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card__video-container {
+  position: relative;
+  padding-top: 62.5%;
+}
+
+.card__video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
