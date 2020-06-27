@@ -4,7 +4,7 @@ const modal = modalOverlay.querySelector('.modal')
 const cards = document.querySelectorAll('.card');
 
 const btnClose = document.querySelector('.close');
-const btnFullScreen = document.querySelectorAll('.fullscreen')
+const btnsFullScreen = modalOverlay.querySelectorAll('.fullscreen')
 
 for (let card of cards) {
   card.addEventListener("click", (cardSelect)=> {
@@ -14,9 +14,9 @@ for (let card of cards) {
   })
 }
 
-for (let button of btnFullScreen) {
+for (let button of btnsFullScreen) {
   button.addEventListener("click", ()=> {
-    btnFullScreen.forEach(btn => {
+    btnsFullScreen.forEach(btn => {
       btn.classList.toggle('-active')
     })
     modal.classList.toggle('-max')

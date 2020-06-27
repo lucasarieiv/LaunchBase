@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
 
 :root {
   --color-zero: #111116;
@@ -16,14 +16,14 @@
   border: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#111116;
+  background-color: #111116;
   padding: 30px;
 }
 
@@ -38,7 +38,6 @@ header.menu {
   color: var(--color-primary);
   transition: color 200ms;
 }
-
 
 section.about {
   text-align: center;
@@ -165,7 +164,7 @@ section .card:nth-child(2):hover {
 
 section .card:nth-child(3),
 .card:nth-child(3) strong {
-  color: var(--color-gostack)
+  color: var(--color-gostack);
 }
 
 section .card:nth-child(3):hover {
@@ -174,11 +173,11 @@ section .card:nth-child(3):hover {
 
 section .card .title {
   font-size: 2.8rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   margin: 1rem 0;
 }
 
-section .card .description  {
+section .card .description {
   color: var(--color-one);
   width: 60%;
   margin: 0 auto;
@@ -204,7 +203,7 @@ section .card .info {
 
 div.modalOverlay.-active {
   position: fixed;
-  background-color: rgba(0,0,0,.96);
+  background-color: rgba(0, 0, 0, 0.96);
   width: 100%;
   height: 100%;
   top: 0;
@@ -216,7 +215,6 @@ div.modalOverlay {
   opacity: 0;
   visibility: hidden;
 }
-
 
 div.modalOverlay .modal {
   position: relative;
@@ -230,7 +228,7 @@ div.modalOverlay .modal {
 }
 
 div.modalOverlay .modal.-max {
-  width: 95%;
+  width: 100%;
   height: 95%;
 }
 
@@ -264,4 +262,23 @@ div.modal iframe {
   position: absolute;
   width: 100%;
   height: 90%;
+}
+
+.error {
+  text-align: center;
+  margin-top: 60px;
+}
+
+div.error > .image {
+  width: 200px;
+}
+
+div.error > .title {
+  font-size: 5.8rem;
+  color: var(--color-primary);
+}
+
+div.error > .description {
+  font-size: 1.4rem;
+  color: var(--color-secondary);
 }
