@@ -69,7 +69,7 @@
   <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/mockup.png" />
 </div>
 
-[Visualizar Foodfy](https://github.com/lucasarieiv/LaunchBase/tree/master/Foodfy)
+[Visualizar Foodfy](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-02/Fase02-1/Desafios/Foodfy)
 
 Paginas Criadas:
 1. __Página principal__ - Contém informações e um banner.
