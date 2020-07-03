@@ -15,6 +15,7 @@ Fase 01 - Preparação Estudos.
 - [Desafio 3-3](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-02/Fase02-2/Desafios/Desafio-3-3)
 - [Desafio Refatorando - Foodfy](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-02/Fase02-1/Desafios/Foodfy)
 
-[Fase 03 - Controle de Academia](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03) 
+[Fase 03](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03) - Controle de Academia.
+- [Desafio 4-1](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03/Desafios/Desafio-4-1)
 
 
