@@ -18,5 +18,6 @@ Fase 01 - Preparação Estudos.
 [Fase 03](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03) - Controle de Academia.
 - [Desafio 4-1](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03/Desafios/Desafios-Fase)
 - [Desafio 4-2](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03/Desafios/Desafios-Fase)
+- [Desafio 4-3](https://github.com/lucasarieiv/LaunchBase/tree/master/Fases/Fase-03/Desafios/Desafios-Fase)
 
 

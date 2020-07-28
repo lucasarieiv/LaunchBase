@@ -4,9 +4,9 @@ const routes = require("./routes")
 
 const server = express();
 
-server.use(express.urlencoded({ extended: true }))
-server.use(express.static("public"))
-server.use(routes)
+server.use(express.urlencoded({ extended: true })) // Vai ultilizar a biblioteca QS (permite aninhamento de objetos nested objects) 
+server.use(express.static("public")) // Seta arquivos Statics para a pasta public
+server.use(routes) // Usando o arquivo routes
 
 server.set("view engine", "njk")
 
