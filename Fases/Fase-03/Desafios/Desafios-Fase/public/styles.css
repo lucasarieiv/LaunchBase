@@ -105,3 +105,47 @@ header {
   font-weight: bold;
 }
 
+.details .item span {
+  padding: 8px 16px;
+  background-color: #87dfd6;
+  border-radius: 16px;
+  color: #fff;
+  margin-right: 4px;
+  margin-top: 8px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+
+/* FORM */
+
+input,
+select {
+  width: 100%;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.12rem;
+  background-color: transparent;  
+}
+
+input[type="radio"] {
+  width: initial;
+  margin-right: 4px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+button[type="submit"] {
+  padding: 8px 32px;
+  background-color: #87dfd6;
+  color: white;
+  border-radius: 4px;
+  margin-top: 32px;
+  width: 100%;
+  font-size: 1rem;
+}

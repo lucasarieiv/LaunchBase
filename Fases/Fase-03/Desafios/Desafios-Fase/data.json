@@ -1,0 +1,24 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.google.com/",
+      "name": "João Azevedi",
+      "birth": 1593561600000,
+      "educational_level": "eSup",
+      "education": "p",
+      "ocupation": "asdasd, asdasdas",
+      "created_at": 1595433119927
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://www.google.com/",
+      "name": "Pedro Henrique",
+      "birth": 1593561600000,
+      "educational_level": "eComplete",
+      "education": "e",
+      "ocupation": "asdasd, asdasdas",
+      "created_at": 1595903873081
+    }
+  ]
+}
